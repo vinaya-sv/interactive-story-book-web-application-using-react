@@ -1,0 +1,57 @@
+.username-wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(247, 152, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.username-container{
+    height: 40vh;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.username-label{
+    font-size: 200%;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5vh;
+    color: rgb(247, 152, 0);
+}
+.username-input{
+    border: 0;
+    outline: none;
+    background-color: rgb(247, 152, 0);
+    height: 7vh;
+    width: 80%;
+    border-radius: 20px;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15pt;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.username-next-box{
+    height: 70px;
+    width: 140px;
+    background-color: white;
+    text-align: center;
+    padding-top: 3vh;
+    box-sizing: border-box;
+    position: absolute;    
+    right:0;
+    bottom: 0;
+    border-radius: 40px;
+    margin: 4vh;
+    color:rgb(247, 152, 0);
+    font-weight: bold;
+}
