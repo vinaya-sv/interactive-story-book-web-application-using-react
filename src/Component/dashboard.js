@@ -8,7 +8,7 @@ function Dashboard(){
         <div>
             <Navbar/>
             <div className="story-list-wrapper">
-            {stories.map((story)=><Link to="/story" state={{ storyFullData:story}}><Storycard story={story}/></Link>)}
+            {stories.map((story)=><Link to={`/story/${story.title}`} state={{ storyFullData:story}}><Storycard story={story}/></Link>)}
             </div>
         </div>
     );

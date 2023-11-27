@@ -1,39 +1,15 @@
-import characters from "./characters";
-
 const stories=[
-    {title:"Adventures of Kiara", author:"Vinaya", image:"https://png.pngtree.com/png-clipart/20210906/ourlarge/pngtree-childrens-picture-book-landscape-png-image_3865212.jpg",story:[
-        //0
-        {type:"non-interactive", passage:"Once upon a time...", character:"narrator", nextPage:1, background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693582405/1739ad9fcd12a720a680883d5ec304ca_u8bcve.jpg"},
-        //1
-        {type:"non-interactive", passage:"There lived a beautiful girl named Kiara", character:"narrator", nextPage:2, background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693733707/Untitled_vpnmpm.png"},
-        //2
-        {type:"non-interactive", passage:"Once she went to market with her mother", character:"narrator", nextPage:3, background:"https://i.pinimg.com/564x/fb/62/4d/fb624dcaefc878f56fedd95efa0619df.jpg"},
-        //3
-        {type:"non-interactive", passage:"Unfortunately, she lost herself in the crowd", character:"narrator", nextPage:4,  background:"https://i.pinimg.com/564x/3a/25/10/3a2510bfa9512d8dbfe2fa81cb95cbbd.jpg"},
-        //4
-        {type:"non-interactive", passage:"Poor Kiara! She keeps crying", character:"narrator", nextPage:5,  background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693734147/Untitled_o2m6dt.png"},
-        //5
-        {type:"non-interactive", passage:"That is when she meets you", character:"narrator", nextPage:6,  background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693582405/1739ad9fcd12a720a680883d5ec304ca_u8bcve.jpg"},
-        //6
-        {type:"non-interactive", passage:"Can you help me reach my home?", character:"Kiara", nextPage:7,  background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693582405/1739ad9fcd12a720a680883d5ec304ca_u8bcve.jpg"},
-        //7
-        {type:"non-interactive", passage:"Yeah sure! How far is your home?", character:"You", nextPage:8, background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693582405/1739ad9fcd12a720a680883d5ec304ca_u8bcve.jpg"},
-        //8
-        {type:"non-interactive", passage:"It is 5km away from this market", character:"Kiara",nextPage:9,  background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693582405/1739ad9fcd12a720a680883d5ec304ca_u8bcve.jpg"},
-        //9
-        {type:"interactive", passage:"Hmm...How can we take Kiara to her home?", options:[
-            {option:"Bus",nextPage:10, image:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693563991/bus-cartoon-icon-illustration_138676-1957_kv77vw.jpg"},
-            {option:"Train",nextPage:11, image:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693564059/depositphotos_112852178-stock-illustration-toy-train-vector-illustration_tbijxn.jpg"},
-            {option:"Cycle", nextPage:12, image:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693564089/woman-riding-bike-healthy-lifestyle-sport-outdoor-activity-concept-illustration-free-vector_s5ahdx.jpg"}],
-            character:"You", background:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1693582405/1739ad9fcd12a720a680883d5ec304ca_u8bcve.jpg"},
-        //10
-        {type:"non-interactive", passage:"Great! Let us go by Bus", character:"You", nextPage:1},
-        //11
-        {type:"non-interactive", passage:"Great! Let us go by Train", character:"You", nextPage:1},
-        //12
-        {type:"non-interactive", passage:"Great! Let us go by Cycle", character:"You", nextPage:1},
-    ],characters:{"Kiara":characters.girl1, "You":characters.boy2}},
-    {title:"Humpty Dumpty", author:"Millie", image:"https://i.pinimg.com/1200x/48/68/ab/4868ab4ad522e7af7f197764cdb2d381.jpg"},
-    {title:"Jack & the Beanstalk", author:"Robert", image:"https://assets.sooperbooks.com/story-pics/bb4dbdad-4088-4f30-882a-8fbb4b8e8be9_Jack-And-The-Beanstalk-Landscape-Cover-1280x720.1280x720.jpg"},
+    {title:"Benny's Colorful Quest", image:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700924429/Interactive-Story-Book/image1_0_hfrrrg.jpg", story:[
+        {passage:"Once upon a time, in a magical land called Storyville, there lived a curious little rabbit named Benny. ",bg:'https://res.cloudinary.com/dl3stdqmp/image/upload/v1700924429/Interactive-Story-Book/image1_0_hfrrrg.jpg',layout:"layout3"},
+        {passage:"Once upon a time, in a magical land called Storyville, there lived a curious little rabbit named Benny. ",bg:'https://res.cloudinary.com/dl3stdqmp/image/upload/v1700924429/Interactive-Story-Book/image1_0_hfrrrg.jpg',layout:"layout1"},
+        {passage:"Benny was known for his insatiable appetite for carrots and his love for exploring the enchanted forest that surrounded his burrow",bg:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700925378/Interactive-Story-Book/image1_0_mtbjcd.jpg",layout:"layout2"},
+        {passage:"",bg:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700926785/Interactive-Story-Book/image1_0_t4ryip.jpg",layout:"layout3"},
+        {passage:"One sunny morning, Benny hopped out of his burrow, his fluffy ears perked up with excitement. As he nibbled on a crisp carrot, he overheard a mysterious whispering sound coming from the heart of the forest. Intrigued, Benny decided to follow the gentle whispers, his paws pitter-pattering on the soft moss-covered ground. As Benny ventured deeper into the forest, the whispers grew louder, revealing themselves to be the magical trees sharing their ancient stories. One wise old oak tree spoke up, \"Greetings, Benny! We've been waiting for you. We have a special task for a brave and curious rabbit like yourself.\"Benny's eyes widened with curiosity. \"What is it?\" he asked, his nose twitching.",bg:"blue",layout:"layout4"},
+        {passage:"The ancient oak explained that a mischievous pixie had hidden all the colors of the rainbow, and without them, the forest was starting to lose its magic.",bg:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700927188/Interactive-Story-Book/image0_0_kbn5j4.jpg",layout:"layout5"},
+        {passage:"Benny's mission was to find the colors and bring them back. Excited to embark on this colorful adventure, Benny hopped from one part of the forest to another. ",bg:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700927188/Interactive-Story-Book/image0_0_kbn5j4.jpg",layout:"layout6"},
+        {passage:"",bg:"",layout:"",option:{question:"How many colors are there in the rainbow?",options:["1","5","7"],answer:2, optionBG:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700929050/Interactive-Story-Book/image1_0_ychzmu.jpg"}},
+        {passage:"Along the way, he met a chatty bluebird named Polly. \"Hey Benny, have you heard about the missing colors? I saw a red sparkle near the sparkling pond,\" Polly chirped.",bg:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700929050/Interactive-Story-Book/image1_0_ychzmu.jpg",layout:"layout7"},
+        {passage:"",bg:"https://res.cloudinary.com/dl3stdqmp/image/upload/v1700928921/Interactive-Story-Book/image0_0_jgnvqx.jpg",layout:"layout3"},
+        ]},
 ];
 export default stories;

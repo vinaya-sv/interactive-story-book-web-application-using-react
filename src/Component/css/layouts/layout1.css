@@ -1,0 +1,29 @@
+.layout1{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px black;
+    z-index: 1;
+    position: relative;
+}
+.l1-image-container{
+    height: 60%;
+    width: 100%;
+    background:  linear-gradient(white 100%,transparent 0%);
+    border-radius: 20px;
+}
+
+.l1-passage-container{
+    display: flex;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    height:40%;
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    font-size: 20pt;
+    text-align: center;
+    align-items: center;
+}

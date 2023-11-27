@@ -1,0 +1,32 @@
+.layout7{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px black;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l7-image-container{
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(white 100%,transparent 0%);
+    border-radius: 20px;
+    position: absolute;
+}
+.l7-passage-container{
+    position: relative;
+    display: flex;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    height:40%;
+    width: 100%;
+    padding: 5%;
+    font-size: 20pt;
+    text-align: center;
+    text-shadow: -10px -10px 20px #fff, -10px -10px 20px #fff,-10px -10px 20px #fff, 10px 10px 20px #fff,10px 10px 20px #fff, 10px 10px 20px #fff,
+    -10px -10px 20px #fff, -10px -10px 20px #fff,-10px -10px 20px #fff, 10px 10px 20px #fff,-20px -20px 50px #fff, 20px 20px 50px #fff;
+}
